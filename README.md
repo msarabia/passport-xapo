@@ -1,10 +1,5 @@
 # passport-xapo-custom-model
 
-![License](https://img.shields.io//github/license/msarabia/passport-xapo)
-![npm version](https://img.shields.io/npm/v/passport-xapo.svg)
-![dependencies](https://img.shields.io/david/bitrefill/passport-xapo.svg)
-![dev dependencies](https://img.shields.io/david/dev/bitrefill/passport-xapo.svg)
-
 [Passport](https://passportjs.org/) strategy for authenticating with [Xapo](http://xapo.com/)
 access tokens using the OAuth 2.0 API.
 
@@ -121,4 +116,3 @@ access_token=<BASE64_ACCESS_TOKEN_STRING>
 
 Licensed under the MIT License, Copyright © 2017 Airfill Prepaid AB.
 
-See [LICENSE](./LICENSE) for more information.
