@@ -1,7 +1,7 @@
-# passport-xapo-custom-model
+# passport-xapo
 
 [Passport](https://passportjs.org/) strategy for authenticating with [Xapo](http://xapo.com/)
-access tokens using the OAuth 2.0 API.
+access tokens using the OAuth 2.0 API with custom information like wallet, balance and more.
 
 This module lets you authenticate using Xapo in your Node.js applications.
 By plugging into Passport, Xapo authentication can be easily and
@@ -9,11 +9,6 @@ unobtrusively integrated into any application or framework that supports
 [Connect](http://www.senchalabs.org/connect/)-style middleware, including
 [Express](http://expressjs.com/).
 
-## Installation
-
-```
-$ npm install passport-xapo
-```
 
 ## Usage
 
