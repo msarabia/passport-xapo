@@ -1,0 +1,32 @@
+{
+  "name": "passport-xapo",
+  "version": "1.0.0",
+  "description": "Strategy for Xapo Bearer Acces Token when Scope Users fails and not return any information",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "compile": "babel src --out-dir lib",
+    "prepublish": "npm run lint && npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msarabia/passport-xapo.git"
+  },
+  "keywords": [
+    "xapo",
+    "passport",
+    "strategy",
+    "authentication",
+    "OAuth2"
+  ],
+  "author": "M.C. Martin Sarabia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msarabia/passport-xapo/issues"
+  },
+  "homepage": "https://github.com/msarabia/passport-xapo#readme",
+  "dependencies": {
+    "passport-oauth2": "^1.4.0"
+  }
+}
